@@ -1,0 +1,17 @@
+{
+	"version": "0.1.0",
+	"windows": {
+		"command": "${cwd}/node_modules/.bin/eslint.cmd"
+	},
+	"linux": {
+		"command": "${cwd}/node_modules/.bin/eslint"
+	},
+	"osx": {
+		"command": "${cwd}/node_modules/.bin/eslint"
+	},
+	"args": [
+		"./routes/index.js"
+	],
+	"isShellCommand": true,
+	"problemMatcher": "$eslint-stylish"
+}
