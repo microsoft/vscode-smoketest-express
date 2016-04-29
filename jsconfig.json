@@ -1,8 +1,14 @@
 {
 	"compilerOptions": {
-		"module": "commonjs"
+		"target": "es6",
+		"module": "commonjs",
+		"allowSyntheticDefaultImports": true
 	},
-	"files": [
-		"bin/www"
+	"exclude": [
+		"node_modules",
+		"bower_components",
+		"jspm_packages",
+		"tmp",
+		"temp"
 	]
 }
