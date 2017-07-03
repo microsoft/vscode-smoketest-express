@@ -1,17 +1,19 @@
 {
-	"version": "0.1.0",
-	"windows": {
-		"command": "${cwd}/node_modules/.bin/eslint.cmd"
-	},
-	"linux": {
-		"command": "${cwd}/node_modules/.bin/eslint"
-	},
-	"osx": {
-		"command": "${cwd}/node_modules/.bin/eslint"
-	},
-	"args": [
-		"./routes/index.js"
-	],
-	"isShellCommand": true,
-	"problemMatcher": "$eslint-stylish"
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "eslint",
+            "problemMatcher": {
+                "base": "$eslint-stylish",
+                "fileLocation": "relative"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
 }
