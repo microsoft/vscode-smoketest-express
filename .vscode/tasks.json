@@ -8,7 +8,7 @@
             "script": "eslint",
             "problemMatcher": {
                 "base": "$eslint-stylish",
-                "fileLocation": "relative"
+                "fileLocation": "absolute"
             },
             "group": {
                 "kind": "build",
