@@ -1,9 +1,5 @@
 {
-	"search.exclude": {
-		"**/node_modules": true,
-		"**/bower_components": true,
-		"npm-packages-offline-cache": true
-	},
 	"workbench.startupEditor": "none",
-	"workbench.enableExperiments": false
+	"workbench.enableExperiments": false,
+	"typescript.disableAutomaticTypeAcquisition": true
 }
