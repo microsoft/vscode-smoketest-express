@@ -7,5 +7,7 @@
 	"npm.autoDetect": "off",
 	"workbench.editor.languageDetection": false,
 	"workbench.localHistory.enabled": false,
-	"search.searchOnType": false
+	"search.searchOnType": false,
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false
 }
