@@ -8,5 +8,8 @@
 	"workbench.editor.languageDetection": false,
 	"workbench.localHistory.enabled": false,
 	"search.searchOnType": false,
-	"workbench.layoutControl.enabled": false
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.autoLockGroups": {
+		"terminalEditor": false
+	}
 }
