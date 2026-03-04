@@ -1,7 +1,7 @@
 {
 	"workbench.startupEditor": "none",
 	"workbench.enableExperiments": false,
-	"typescript.disableAutomaticTypeAcquisition": true,
+	"js/ts.tsserver.automaticTypeAcquisition.enabled": true,
 	"json.schemaDownload.enable": false,
 	"npm.fetchOnlinePackageInfo": false,
 	"npm.autoDetect": "off",
@@ -11,5 +11,6 @@
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.autoLockGroups": {
 		"terminalEditor": false
-	}
+	},
+	"workbench.editor.useModal": "off"
 }
